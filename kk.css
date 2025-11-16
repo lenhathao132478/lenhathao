@@ -1,0 +1,97 @@
+body {
+  margin: 80;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 40px;
+  color: white;
+}
+
+.profile-card {
+  width: 300px;
+  background: #111;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: conic-gradient(#ff7a7a, #ffb86b, #b07bff, #6bd1ff, #ff7a7a);
+  margin: auto;
+}
+
+.role {
+  text-align: center;
+  color: #b3b3b3;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.name {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.desc {
+  text-align: center;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.btn-follow {
+  display: block;
+  background: #2d6bff;
+  padding: 8px 0;
+  text-align: center;
+  margin: 15px 0;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+p {
+  margin: 6px 0;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.right-links {
+  position: fixed;
+  right: 40px;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right-links a {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 12px 20px;
+  display: block;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: 0.25s;
+}
+
+.right-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(6px);
+}
